@@ -1,0 +1,60 @@
+h1 {
+    color:#f0ccc9; 
+	text-align: center;
+	margin: 50px 50px 50px 50px
+}
+
+p {
+    color: black;
+    font-family: Verdana;
+    
+}
+
+#terve rida tab
+.tab {
+    text-align: right;
+    border: 1px solid hotpink;
+    background-color: indigo;
+
+}
+
+#tab'i nupp
+.tab button {
+    background-color: oldlace;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 30px 30px ;
+    font-size: 25px;
+
+}
+#muudav tab'i värvi kui vajutad
+tab button:hover {
+    background-color: cadetblue;
+}
+
+tab button.active {
+    background-color: cyan;
+}
+
+#kuidas valja naeb juba tab'i sisaldus
+.tabsisaldus {
+    color: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+    border-top: none;
+
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    margin: 13px 13px 13px 13px;
+}
+
+#Home {background-color: burlywood;}
+#Menu {background-color: chocolate;}
+#Contact {background-color: darkkhaki;}
+#About {background-color: rgba(139, 71, 48, 0.932);}
