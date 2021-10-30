@@ -10,7 +10,7 @@
 	<p>See on minu veebilehe teine leht.</p>
 	<div class="tab">
 		<button class="tablinks" onclick="opentab(event, "Home" )">Home</button>
-		<button class="tablinks" onclick="opentab(event, "Menu" )">Menu</button>
+		<a href="menu.html"><button class="tablinks" )">Menu</button></a>
 		<button class="tablinks" onclick="opentab(event, "Contact" )">Contact</button>
 		<button class="tablinks" onclick="opentab(event, "About" )">About us</button>
 	</div>
@@ -20,7 +20,7 @@
 		<p>sjfcisjc</p>
 	</div>	
 	<div id="Menu" class="tabsisaldus">
-		<h3>Menu</h3>
+		<a href ="menu.html"><h3>Menu</h3></a>
 		<p>sjfcisjc</p>
 	</div>
 	<div id="Contact" class="tabsisaldus">
@@ -31,27 +31,6 @@
 		<h3>About us</h3>
 		<p>sjfcisjc</p>
 	</div>
-<script>
-function opentab(event, tabname) {
-	let i, tabsisaldus, tablinks;
-
-	#selleks et kustutada mis oli varem avatud tab'is
-	for (i=0; i < tabcontent.lenght; i++) {
-		tabcontent[i].style.display= "none";
-	}
-
-	#selleks et meie tab oli aktive
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i=0; i < tabcontent.lenght; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-
-	#teeb nähtavaks meie tab'i
-	document.getElementById(tabname),style.display = "block";
-	event.currentTarget.className += "active";
-	
-}
-</script>
 
 </body>
 </html>
