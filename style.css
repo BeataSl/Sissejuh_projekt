@@ -10,51 +10,90 @@ p {
     
 }
 
-#terve rida tab
-.tab {
-    text-align: right;
-    border: 1px solid hotpink;
-    background-color: indigo;
-
-}
-
-#tab'i nupp
-.tab button {
-    background-color: oldlace;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 30px 30px ;
-    font-size: 25px;
-
-}
-#muudav tab'i värvi kui vajutad
-tab button:hover {
-    background-color: cadetblue;
-}
-
-tab button.active {
-    background-color: cyan;
-}
-
-#kuidas valja naeb juba tab'i sisaldus
-.tabsisaldus {
-    color: none;
-    padding: 6px 12px;
-    border: 1px solid #4CAF50;
-    border-top: none;
-
-}
-
 h3 {
     color: black;
     text-align: left;
     margin: 13px 13px 13px 13px;
 }
 
-#Home {background-color: burlywood;}
-#Menu {background-color: chocolate;}
-#Contact {background-color: darkkhaki;}
-#About {background-color: rgba(139, 71, 48, 0.932);}
+
+body {
+    height: 100%;
+    background-color: #364f6b;
+    font-family: Tahoma, sans-serif;
+    color: #f5f5f5;
+  }
+  
+  .wrap {
+    padding: 40px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .tabs__items {
+    display: flex;
+  }
+  .tabs__item {
+    flex: 5 1 33%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+  }
+  .tabs__item span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .tab__box {
+    position: relative;
+    padding: 70px;
+    font-size: 18px;
+    line-height: 24px;
+    display: none;
+  }
+  
+  .tab__box:before {
+    content: "";
+    height: 50px;
+    width: 33%;
+    position: absolute;
+    top: -50px;
+  }
+  
+  .tab__box:nth-child(1) {
+    background-color: #3fc1c9;
+  }
+  .tab__box:nth-child(1):before {
+    background-color: #3fc1c9;
+    left: 0;
+  }
+  .tab__box:nth-child(2) {
+    background-color: #fc5185;
+  }
+  .tab__box:nth-child(2):before {
+    background-color: #fc5185;
+    left: 33%;
+  }
+  .tab__box:nth-child(3) {
+    background-color: #3fc1c9;
+  }
+  .tab__box:nth-child(3):before {
+    background-color: #3fc1c9;
+    right: 0;
+  }
+
+  .tab__box:nth-child(4) {
+    background-color: #fc5185;
+  }
+  .tab__box:nth-child(4):before {
+    background-color: #fc5185;
+    left: 0;
+  }
+
+  
+  .tab__box:target {
+    display: block;
+  }

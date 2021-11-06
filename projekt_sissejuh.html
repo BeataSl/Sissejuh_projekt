@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
 <head>
 <title> Restorani nimetus</title>
+<meta name="viewport" content=width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Restotani nimetus</h1>
-	<h3>Tere tulemast!</h3>
-	<p>See on minu veebilehe teine leht.</p>
-	<div class="tab">
-		<button class="tablinks" onclick="opentab(event, "Home" )">Home</button>
-		<a href="menu.html"><button class="tablinks" )">Menu</button></a>
-		<button class="tablinks" onclick="opentab(event, "Contact" )">Contact</button>
-		<button class="tablinks" onclick="opentab(event, "About" )">About us</button>
+	<h1>Restorani nimetus</h1>
+	<div class="wrap">
+		<div class="tabs">
+		  <nav class="tabs__items">
+			<a href="#home.html" class="tabs__item"><span>Home</span></a>
+			<a href="#menu.html" class="tabs__item"><span>Menu</span></a>
+			<a href="#contact.html" class="tabs__item"><span>Contact</span></a>
+			<a href="#aboutus.html" class="tabs__item"><span>About us</span></a>
+		  </nav>
+		  <div>
+			<div id="home.html" class="tab__box">
+				text1
+			</div>
+			<div id="menu.html" class="tab__box">
+				text2
+			</div>
+			<div id="contact.html" class="tab__box">
+				text3
+			</div>
+			<div id="aboutus.html" class="tab__box">
+			</div>
+		</div>
+	  </div>
 	</div>
 
-	<div id="Home" class="tabsisaldus">
-		<h3>Home</h3>
-		<p>sjfcisjc</p>
-	</div>	
-	<div id="Menu" class="tabsisaldus">
-		<a href ="menu.html"><h3>Menu</h3></a>
-		<p>sjfcisjc</p>
-	</div>
-	<div id="Contact" class="tabsisaldus">
-		<h3>Contact</h3>
-		<p>sjfcisjc</p>
-	</div>
-	<div id="About" class="tabsisaldus">
-		<h3>About us</h3>
-		<p>sjfcisjc</p>
-	</div>
 
 </body>
 </html>
