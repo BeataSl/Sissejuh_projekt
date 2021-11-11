@@ -55,7 +55,7 @@ body {
 }
 
 .tab__box:target {
-  display: block;
+  display: flex;
 }
 .tab__box:before {
   content: "";
