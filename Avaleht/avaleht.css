@@ -1,0 +1,12 @@
+* {box-sizing: border-box}
+.slaid {display: none}
+img {vertical-align: middle;}
+
+.slaidishow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+
+ 
