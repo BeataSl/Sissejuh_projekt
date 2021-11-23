@@ -1,18 +1,59 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+header{
+    background-color: black;
+    margin: 0;
 }
 
+h1, h2, h3, h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item{
+  margin-right: 5vw;
+  transition: 0.3s;
+}
+.nav-item:hover{
+  transform: scale(1.2);
+}
+
+.nav-item a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:nth-child(3):hover{
+  transform: none;
+}
+
+.nav-item:nth-child(5){
+  margin:0;
+}
 
 .wrapper {
     width: 1200px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .title {
@@ -32,7 +73,7 @@ body {
     display: block;
     font-size: 18px;
     font-style: italic;
-    margin-bottom: -5px;
+    margin-bottom: 5px;
 }
 
 .title h4::before{
@@ -40,7 +81,7 @@ body {
     content: "";
     width: 100px;
     height: 2px;
-    background-color: #ff7720;
+    background-color: #bb9f5d;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -52,6 +93,9 @@ body {
     justify-content: space-between;
 }
 
+.menu-header{
+    border-bottom: 2px solid #bb9f5d;
+}
 .single-menu {
     flex-basis: 580px;
     margin-bottom: 40px;
@@ -93,19 +137,6 @@ body {
 
 .single-menu h4 span {
     float: right;
-    color: #ff7720;
+    color: #bb9f5d;
     font-style:italic ;
 }
-//*
-<div class="single-menu">
-                <img src="fotod/vürtsikas-pasta-750x750.jpeg" alt="">
-                <div class="menu-content">
-                    <h4>VÜRTSIKAS PASTA<span>11.95 €</span></span></h4>
-                    <p>Pasta tiigerkrevettidega kreemjas tomatikastmes</p>
-                </div>  
-<div class="single-menu">
-                <img src="fotod/Pasta_bolognese.jpeg" alt="">
-                <div class="menu-content">
-                    <h4>PASTA BOLOGNESE<span>7.40 €</span></span></h4>
-                    <p>Pasta hakkliha ja tomatikastmega</p>
-                </div>

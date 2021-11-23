@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+main{
+    margin: 0 auto;
+    width: 85vw;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+
+header{
+    background-color: black;
+    margin: 0 0 20vh;
+}
+.nav-items{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item{
+  margin-right: 5vw;
+  transition: 0.3s;
+}
+.nav-item:hover{
+  transform: scale(1.2);
+}
+
+.nav-item a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:nth-child(3):hover{
+  transform: none;
+}
+
+.nav-item:nth-child(5){
+  margin:0;
+}
+
+.row{
+    display: flex;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid #d7b065;
+    padding: 40px;
+    margin: 0 0 20vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s;
+}
+
+.about-us:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
