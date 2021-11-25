@@ -63,11 +63,26 @@ header{
 h1, p{
     text-align:center;
     font-family: "Josefin Sans", sans-serif;
+    font-size: 2vw
 }
 
 p{
     
     
-    font-size: 30px;
+    font-size: 1vw;
 }
 
+.gmaps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+  
+.gmaps iframe{
+    left: 100px;;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
