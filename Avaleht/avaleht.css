@@ -59,6 +59,16 @@ header{
   width:70%;
 }
 
+h1:after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding-top:10px;
+  border-bottom: 2px solid #bb9f5d;
+  
+}
+
 h1, p{
   text-align:center;
   font-family: "Josefin Sans", sans-serif;
