@@ -46,7 +46,7 @@ header{
 }
 
 .column {
-  float: left;
+  grid-column-end: span 2;
   padding: 30px;
 }
 
@@ -94,6 +94,9 @@ p{
     to {opacity: 1}
   }
 
+.auhinnad{ 
+  text-align: center;
+}
 
 
 
