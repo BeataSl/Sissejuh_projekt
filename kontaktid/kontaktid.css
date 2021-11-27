@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;700&display=swap');
 
 body{
+    overflow-y: scroll; 
     font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
@@ -41,12 +42,14 @@ header{
     margin:0;
 }
 
+
 .column {
     float: left;
+    padding: 10px;
 }
   
 .left {
-    width: 60%;
+    width: 50%;
     text-align: center
 }
   
