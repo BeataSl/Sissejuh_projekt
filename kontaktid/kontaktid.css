@@ -42,20 +42,17 @@ header{
     margin:0;
 }
 
-
 .column {
     float: left;
-    padding: 10px;
+    padding: 10;
 }
   
 .left {
-    width: 50%;
-    text-align: center
+    width: 60%;
 }
   
 .right {
-    
-    width: 40%;
+    width: 30%;
 }
 
 h1, h2, p{
@@ -69,20 +66,16 @@ h1:after{
     display: block;
     margin: 0 auto;
     width: 10%;
-    
     border-bottom: 2px solid #bb9f5d;
-    
-  }
+}
 
 h2:after{
     content: "";
     display: block;
     margin: 0 auto;
     width: 13%;
-    
     border-bottom: 2px solid #bb9f5d;
-    
-  }
+}
 
 p{
     font-size: 1vw;
@@ -96,7 +89,7 @@ p{
 }
   
 .gmaps iframe{
-    left: 100px;;
+    left: 30px;;
     top:0;
     height:100%;
     width:100%;
