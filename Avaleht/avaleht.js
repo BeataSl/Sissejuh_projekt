@@ -1,3 +1,4 @@
+// viide javascriptile https://www.w3schools.com/w3css/w3css_slideshow.asp
 var slideIndex = 0;   // määrab ära milline slaid kuvatakse esimesena
 showSlides();   // kutsub välja showSlides funktsiooni
 
