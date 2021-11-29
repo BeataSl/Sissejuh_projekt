@@ -31,6 +31,11 @@ div.gallery:hover {
   border: 1px solid #777;
 }
 
+.meeskond{
+  display: frex;
+  flex-wrap: nowrap;
+}
+
 div.gallery img {
   width: 100%;
   height: auto;
