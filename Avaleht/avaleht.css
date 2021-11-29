@@ -30,19 +30,11 @@ h1{
   font-size: 2vw
 }
 
-.info{
+p{
   font-family: "Josefin Sans", sans-serif;
   font-size: 1vw;
-  border:2px;
-  border-style:solid;
-  border-color:#FF0000;
-  padding: 1em;
+  
 }
-
-p{
-  font-size: 1vw;
-}
-
 
 .slaid {display: none}
 .img {vertical-align: middle;}
