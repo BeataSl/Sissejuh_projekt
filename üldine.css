@@ -11,7 +11,6 @@ body{
 }
   
   .nav-items{
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,16 +20,13 @@ body{
   }
   
   .nav-item{
+    color: white;
+    text-decoration: none;
     margin-right: 5vw;
     transition: 0.3s;
   }
   .nav-item:hover{
     transform: scale(1.2);
-  }
-  
-  .nav-item a{
-    color: white;
-    text-decoration: none;
   }
   
   .nav-item:nth-child(3):hover{
