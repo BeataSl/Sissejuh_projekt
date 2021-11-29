@@ -24,24 +24,17 @@ h1:after{
   
 }
 
-h1, p{
+h1{
   text-align:center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 2vw
 }
 
 p{
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1vw;
-  border:2px;
-  border-style:solid;
-  border-color:#FF0000;
-  padding: 1em;
+  
 }
-
-p2{
-  font-size: 1vw;
-}
-
 
 .slaid {display: none}
 .img {vertical-align: middle;}
