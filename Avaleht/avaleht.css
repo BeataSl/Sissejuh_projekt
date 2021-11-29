@@ -47,17 +47,16 @@ header{
 }
 
 .column {
-  grid-column-end: span 2;
-  padding: 50px;
+  padding: 40px;
 }
 
 .left {
-  width: 30%;
+  width: 40%;
 }
 
 .right {
   float:right;
-  width:70%;
+  width:60%;
 }
 
 h1:after{
@@ -65,7 +64,6 @@ h1:after{
   display: block;
   margin: 0 auto;
   width: 20%;
-  padding-top:10px;
   border-bottom: 2px solid #bb9f5d;
   
 }
@@ -78,8 +76,15 @@ h1, p{
 
 p{
   font-size: 1vw;
+  border:2px;
+  border-style:solid;
+  border-color:#FF0000;
+  padding: 1em;
 }
 
+p2{
+  font-size: 1vw;
+}
 
 
 .slaid {display: none}
@@ -106,6 +111,7 @@ p{
   }
 
 .auhinnad{ 
+  padding:100px;
   text-align: center;
 }
 

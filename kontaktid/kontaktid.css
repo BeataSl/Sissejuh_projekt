@@ -55,7 +55,7 @@ header{
     width: 30%;
 }
 
-h1, h2, p{
+h1, h2, h3, p{
     text-align:center;
     font-family: "Josefin Sans", sans-serif;
     font-size: 2vw
@@ -65,7 +65,7 @@ h1:after{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 10%;
+    width: 7%;
     border-bottom: 2px solid #bb9f5d;
 }
 
@@ -73,8 +73,17 @@ h2:after{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 13%;
+    width: 15%;
     border-bottom: 2px solid #bb9f5d;
+}
+
+h3:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    border-bottom: 2px solid #bb9f5d;
+
 }
 
 p{
