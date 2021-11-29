@@ -32,7 +32,7 @@ div.gallery:hover {
 }
 
 .meeskond{
-  display: frex;
+  display: flex;
   flex-wrap: nowrap;
 }
 
