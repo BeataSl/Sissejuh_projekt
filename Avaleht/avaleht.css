@@ -44,8 +44,16 @@ p{
   font-size: 1vw;
 }
 
-.slaid {display: none}
-.img {vertical-align: middle;}
+.slaid {display: none
+}
+
+.slaid img{
+  width:100%;
+}
+
+img {
+  vertical-align: middle;
+}
 
 .fade {
   -webkit-animation-name: fade;
@@ -65,10 +73,13 @@ p{
 }
 
 .auhinnad{ 
-  padding:100px;
-  text-align: center;
+  padding:2%;
+  text-align:center;
 }
 
+.auhinnad img{
+  width:10%;
+}
 
 
 
